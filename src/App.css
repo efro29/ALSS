@@ -19,3 +19,25 @@
       stroke-dashoffset: 20;
   }
 }
+.animated {
+
+
+  fill: rgb(255, 0, 0);
+  width: 100px;
+}
+
+
+.warning{
+background-color: rgb(255, 159, 159);
+animation: piscante 0.6s linear infinite;
+}
+@keyframes piscante {
+  100%{
+    background-color: rgba(165, 42, 42, 0.233);
+  }
+  
+}
+
+rect{
+  fill:rgba(165, 42, 42, 0)
+}

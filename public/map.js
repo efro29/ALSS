@@ -1,3 +1,6 @@
+
+
+
 const data = [
     {
         name: 'United States of America',
@@ -929,6 +932,8 @@ const data = [
     }
 ];
 
+
+
 const getGraticule = () => {
     const data = [];
 
@@ -972,6 +977,8 @@ const afterAnimate = e => {
     const chart = e.target.chart;
 
     if (!chart.get('flight-route')) {
+
+
         chart.addSeries({
             type: 'mapline',
             name: 'Flight route, Amsterdam - Los Angeles',
@@ -996,9 +1003,9 @@ const afterAnimate = e => {
                 exposeAsGroupOnly: true
             }
         }, false);
+
+
         chart.addSeries({
-
-
             type: 'mappoint',
             animation: false,
             marker: {symbol: 'url(img/download.svg)',   width: 50, height: 40, },
@@ -1007,45 +1014,42 @@ const afterAnimate = e => {
                     { name: 'Gatun Lake, PA',geometry: { type: 'Point', coordinates: [ -79.86492725211505,9.243626515342715,]}},
                     { name: 'Buzan, Ko',geometry: { type: 'Point', coordinates:  [127.90558240159392,37.18416288617935]}}
                   ],
-           
+              }, false);
 
-           
-         
-        }, false);
 
         chart.addSeries({
-
-
             type: 'mappoint',
             animation: false,
             marker: {symbol: 'url(img/vessel_OK.svg)',   width: 50, height: 40, },
             data: [
             
-                    { name: 'JOELSON BATELÃO',geometry: { type: 'Point', coordinates: [-38.07528328748764,-14.302066469979398]}},
-                    { name: 'ATACAMA',geometry: { type: 'Point', coordinates:  [ -75.95613914362657,10.363128332014611,]}}
-                  ],
-           
-
-           
-         
-        }, false);
-
-        
-        chart.addSeries({
+                    { angle:1,name: 'JOELSON BATELÃO',geometry: { type: 'Point', coordinates: [-38.07528328748764,-14.302066469979398]}},
+                    { angle:2, name: 'ATACAMA',geometry: { type: 'Point', coordinates:  [ -75.95613914362657,10.363128332014611,]}}
+                  ],  
+                 }, false);
 
 
-            type: 'mappoint',
-            animation: false,
-            marker: {symbol: 'url(img/vessel_NG.svg)',   width: 50, height: 40, },
-            data: [
-                    { name: 'PEDRO ALVAREZ', geometry: {type: 'Point', coordinates: [ -47.303798111988456,0.8399904555360483]} }, 
-         
-                  ],
-           
 
-           
-         
-        }, false);
+                chart.addSeries({
+                type: 'mappoint',
+                animation: false,
+                marker: {symbol: 'url(img/wave.gif)',   width: 50, height: 40, radius:1 },
+                data: [
+                {angle:30,name: '', geometry: {type: 'Point', coordinates: [ -47.303798111988456,0.8399904555360483]}
+                },  
+                ],
+                }, false);
+
+
+                chart.addSeries({
+                type: 'mappoint',
+                animation: false,
+                marker: {symbol: 'url(img/vessel_NG.svg)',   width: 50, height: 40, radius:1 },
+                data: [
+                {angle:30,name: '', geometry: {type: 'Point', coordinates: [ -47.303798111988456,0.8399904555360483]}
+                },  
+                ],
+                }, false);
 
 
 
@@ -1098,8 +1102,8 @@ Highcharts.getJSON(
 
             colorAxis: {
                 tickPixelInterval: 100,
-                minColor: '#BFCFAD',
-                maxColor: '#31784B',
+                minColor: '#4682B4',
+                maxColor: '#4682B4',
                 max: 1000
             },
 

@@ -48,7 +48,7 @@ export default function AutoGrid() {
 
         <Grid item xs={8}>
           <Item className='cards'>
-          <RecipeReviewCard></RecipeReviewCard>
+          <RecipeReviewCard ></RecipeReviewCard>
         
           </Item>
         </Grid>

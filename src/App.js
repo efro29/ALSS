@@ -10,17 +10,14 @@ function App() {
   
   
     <>
-  <ButtonAppBar></ButtonAppBar>
-  <br></br>
-  <AutoGrid></AutoGrid>
-
-
-
-
-
+<ButtonAppBar></ButtonAppBar>
+<br></br>
+<AutoGrid></AutoGrid>
 
     </>
   );
 }
 
 export default App;
+
+

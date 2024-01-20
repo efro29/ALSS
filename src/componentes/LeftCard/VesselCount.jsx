@@ -23,27 +23,27 @@ export default function VesselCount() {
         <TableBody>
          
             <TableRow hover>
-              <TableCell align="Centerx ">Manzanillo,PA</TableCell>
-              <TableCell align="Centerx ">25</TableCell>
-              <TableCell align="Centerx ">3</TableCell>
+              <TableCell>Manzanillo,PA</TableCell>
+              <TableCell>25</TableCell>
+              <TableCell>3</TableCell>
             </TableRow>
 
             <TableRow hover>
-              <TableCell align="Centerx ">Santos,BR</TableCell>
-              <TableCell align="Centerx ">10</TableCell>
-              <TableCell align="Centerx "  sx={{color:'silver'}}>0</TableCell>
+              <TableCell>Santos,BR</TableCell>
+              <TableCell>10</TableCell>
+              <TableCell  sx={{color:'silver'}}>0</TableCell>
             </TableRow>
 
             <TableRow hover>
-              <TableCell align="Centerx ">Pecem,BR</TableCell>
-              <TableCell align="Centerx ">3</TableCell>
-              <TableCell align="Centerx "  sx={{color:'silver'}} >0</TableCell>
+              <TableCell>Pecem,BR</TableCell>
+              <TableCell>3</TableCell>
+              <TableCell  sx={{color:'silver'}} >0</TableCell>
             </TableRow>
 
             <TableRow hover>
-              <TableCell align="Centerx ">Manaus,BR</TableCell>
-              <TableCell align="Centerx ">1</TableCell>
-              <TableCell align="Centerx "  sx={{color:'silver'}}>0</TableCell>
+              <TableCell>Manaus,BR</TableCell>
+              <TableCell>1</TableCell>
+              <TableCell  sx={{color:'silver'}}>0</TableCell>
             </TableRow>
 
             

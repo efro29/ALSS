@@ -33,33 +33,33 @@ export default function VesselTracking() {
                  <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
                 FERNAO DE MAGALHAES
                 </TableCell>
-              <TableCell align="Center">12</TableCell>
+              <TableCell align="center">12</TableCell>
             </TableRow>
-            <TableRow hover  >
-              <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
+            <TableRow hover className='warning'>
+              <TableCell align="center" fontcolor="red">PAMIT</TableCell>
               <TableCell align="left" sx={{width:250, fontSize:12}}>
-                <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
-                PIGMEU ALBERTO
+                <NearMeIcon sx={{fontSize:15, mr:1,color:'red'}}/>
+                PEDRI ALVAREZ
                 </TableCell>
-              <TableCell align="Center">13</TableCell>
+              <TableCell align="center">13</TableCell>
             </TableRow>
     
             <TableRow hover  >
-              <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
+              <TableCell align="center" fontcolor="red">PAMIT</TableCell>
               <TableCell align="left" sx={{width:250, fontSize:12}}>
                  <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
                 FERNANDO NOIA
                 </TableCell>
-              <TableCell align="Center">21</TableCell>
+              <TableCell align="center">21</TableCell>
             </TableRow>
     
             <TableRow hover  >
-              <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
+              <TableCell align="center" fontcolor="red">PAMIT</TableCell>
               <TableCell align="left" sx={{width:250, fontSize:12}}>
                  <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
                 ATACAMA MAERSK
                 </TableCell>
-              <TableCell align="Center">22</TableCell>
+              <TableCell align="center">22</TableCell>
             </TableRow>
     
     
