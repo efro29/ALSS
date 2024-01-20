@@ -13,6 +13,9 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import ShareLocationIcon from '@mui/icons-material/ShareLocation';
+import ImageAvatars from './Avatar';
+
+
 
 const pages = ['HOME', 'MASTER', 'AI NEWS'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -130,7 +133,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+               <ImageAvatars></ImageAvatars>
               </IconButton>
             </Tooltip>
             <Menu

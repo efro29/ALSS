@@ -1,7 +1,7 @@
 import './App.css';
 import ButtonAppBar from './componentes/Navbar';
 import AutoGrid from './componentes/Grid';
-import styled from 'styled-components';
+
 
 
 
@@ -13,6 +13,7 @@ function App() {
   <ButtonAppBar></ButtonAppBar>
   <br></br>
   <AutoGrid></AutoGrid>
+
 
 
 
