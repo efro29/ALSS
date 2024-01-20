@@ -2,3 +2,20 @@
 .cards{
   height: 45vw;
 }
+
+
+.animated-line {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: dash 2s linear infinite;
+}
+
+@keyframes dash {
+  from {
+      stroke-dashoffset: 00;
+  }
+
+  to {
+      stroke-dashoffset: 20;
+  }
+}

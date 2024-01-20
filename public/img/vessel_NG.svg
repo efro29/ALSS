@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-600.036 -235.322 2335.206 1924.912" width="2335.206" height="1924.912" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.1, 0, 0, -0.1, 70.438965, 1356.051025)" fill="#000000" stroke="none"/>
+  <path d="M 226.928 1161.171 L 689.893 129.296 L 222.746 362.567 L 227.051 357.428 L 226.928 1161.171 Z" style="stroke-width: 30px; stroke-miterlimit: 43; stroke-linecap: round; stroke-dashoffset: 19px; stroke-linejoin: round; stroke-opacity: 0; stroke: rgb(22, 75, 198); fill: rgb(251, 144, 134);" transform="matrix(-0.999998, -0.001984, 0.001984, -0.999998, 911.357971, 1291.370972)"/>
+  <path d="M 678.932 130.964 L 1141.899 1162.838 L 674.75 929.567 L 679.055 934.706 L 678.932 130.964 Z" style="stroke-width: 30px; stroke-miterlimit: 43; stroke-linecap: round; stroke-dashoffset: 19px; stroke-linejoin: round; stroke-opacity: 0; stroke: rgb(22, 75, 198); fill: rgb(173, 7, 7);" transform="matrix(0.999998, -0.001984, 0.001984, 0.999998, -1.281664, 1.803389)"/>
+  <path d="M 687.093 130.421 L 1150.06 1162.296 L 682.911 929.025 L 217.891 1162.317 L 687.093 130.421 Z" style="stroke-width: 30px; stroke-miterlimit: 43; stroke-linecap: round; stroke-dashoffset: 19px; stroke-linejoin: round; fill: rgba(197, 213, 228, 0); stroke: rgb(47, 3, 3);" transform="matrix(0.999998, -0.001984, 0.001984, 0.999998, -1.28105, 1.35828)"/>
+</svg>
