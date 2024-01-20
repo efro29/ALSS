@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="/src/App.css">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
-    <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/tiledwebmap.js"></script>
     <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
     <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/debugger.js"></script>
 
     <style>
       .body{
@@ -32,12 +35,13 @@
 
     <div id="root"></div>
     <div style="
+
     position: absolute;
     margin-left: 19%;
     margin-top: -40%;
     width: 1500px;
     height: 900px;
-    " id="aus"></div>
+    " id="container"></div>
 
     <script src="map.js"></script>
 
