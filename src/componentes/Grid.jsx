@@ -27,7 +27,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function AutoGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={3}>
+      <Grid container spacing={1.1}>
 
 
          <Grid item xs={2}>

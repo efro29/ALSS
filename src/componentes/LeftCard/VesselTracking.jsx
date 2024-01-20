@@ -6,6 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import NearMeIcon from '@mui/icons-material/NearMe';
 
 
 
@@ -19,33 +20,46 @@ export default function VesselTracking() {
           <TableRow hover sx={{ background: 'WhiteSmoke'}} >
             <TableCell>From</TableCell>
             <TableCell>Vessel Name</TableCell>
-            <TableCell>ETA</TableCell>
+            <TableCell>Days</TableCell>
 
           </TableRow>
         </TableHead>
         <TableBody>
          
             <TableRow hover  >
-              <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
-              <TableCell align="Center">FERNAO DE MAGALHAES</TableCell>
-              <TableCell align="Center">12-01</TableCell>
+              <TableCell align="left" fontcolor="red" sx={{width:10}}>PAMIT</TableCell>
+
+              <TableCell align="left" sx={{width:250, fontSize:12}}>
+                 <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
+                FERNAO DE MAGALHAES
+                </TableCell>
+              <TableCell align="Center">12</TableCell>
             </TableRow>
             <TableRow hover  >
               <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
-              <TableCell align="Center">PIGMEU ALBERTO</TableCell>
-              <TableCell align="Center">12-01</TableCell>
+              <TableCell align="left" sx={{width:250, fontSize:12}}>
+                <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
+                PIGMEU ALBERTO
+                </TableCell>
+              <TableCell align="Center">13</TableCell>
             </TableRow>
     
             <TableRow hover  >
               <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
-              <TableCell align="Center">FERNANDO NOIA</TableCell>
-              <TableCell align="Center">12-01</TableCell>
+              <TableCell align="left" sx={{width:250, fontSize:12}}>
+                 <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
+                FERNANDO NOIA
+                </TableCell>
+              <TableCell align="Center">21</TableCell>
             </TableRow>
     
             <TableRow hover  >
               <TableCell align="Center" fontcolor="red">PAMIT</TableCell>
-              <TableCell align="Center">ATACAMA MAERSK</TableCell>
-              <TableCell align="Center">12-01</TableCell>
+              <TableCell align="left" sx={{width:250, fontSize:12}}>
+                 <NearMeIcon sx={{fontSize:15, mr:1,color:'lime'}}/>
+                ATACAMA MAERSK
+                </TableCell>
+              <TableCell align="Center">22</TableCell>
             </TableRow>
     
     
